@@ -1,0 +1,97 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #008037;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 42px;
+}
+
+.voltar {
+   width: 22px;
+   height: 42px;
+   margin-right: 42px;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+
+.vetor-confirmacao {
+    position: absolute;
+    width: 974px;
+    height: 1024px;
+}
+
+.vetor-pessoas {
+    width: 451px;
+    height: 984px;
+    display: flex;
+    position: relative;
+    justify-items: end;
+    float: right;
+}
+
+.box-confirmacao {
+    top: 198px;
+    left: 129px;
+    position: relative;
+    width: 760px;
+    height: 315px;
+    background-color: #ece8e8;
+    border-radius: 77px;
+    border: 1px solid;
+    padding-left: 64px;
+}
+
+.bem-vindo {
+    font-weight: 700;
+    color: #008037;
+    font-size: 39px;
+    line-height: normal;
+}
+
+.mensagem-confirmacao {
+    color: #008037;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #54bc49;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    position: relative;
+    display: flex;
+    bottom: 0;
+}
+
+.text-footer {
+    box-sizing: border-box;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fcfcfc;
+    line-height: normal;
+    letter-spacing: 0;
+}
