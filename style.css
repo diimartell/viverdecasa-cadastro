@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    /*overflow-y: hidden;*/    /*remove o scroll vertical da página */
 }
 
 header {
@@ -23,19 +24,19 @@ header {
 
 .logo {
     margin: 0 auto;
-    width: 80px;
-    height: 80px;
+    width: 76px;
+    height: 76px;
 }
 
 .vetor-confirmacao {
     position: absolute;
-    width: 974px;
-    height: 1024px;
+    width: 887px;
+    height: 844px;
 }
 
 .vetor-pessoas {
-    width: 451px;
-    height: 984px;
+    width: 663px;
+    height: 810x;
     display: flex;
     position: relative;
     justify-items: end;
@@ -43,21 +44,20 @@ header {
 }
 
 .box-confirmacao {
-    top: 198px;
-    left: 129px;
+    top: 165px;
+    left: 80px;
     position: relative;
-    width: 760px;
-    height: 315px;
+    width: 530px;
+    height: 236px;
     background-color: #ece8e8;
     border-radius: 77px;
-    border: 1px solid;
-    padding-left: 64px;
+    padding: 60px;
 }
 
 .bem-vindo {
     font-weight: 700;
     color: #008037;
-    font-size: 39px;
+    font-size: 34px;
     line-height: normal;
 }
 
@@ -68,8 +68,18 @@ header {
     line-height: normal;
 }
 
-footer {
+.return {
     position: relative;
+    display: flex;
+    width: 35px;
+    height: 33px;
+    display: flex;
+    left: 25px;
+    top: 400px;
+}
+
+footer {
+    position: static;
     bottom: 0;
     background-color: #54bc49;
     height: 40px;
@@ -77,12 +87,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.rodape {
-    position: relative;
-    display: flex;
-    bottom: 0;
 }
 
 .text-footer {
